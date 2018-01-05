@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context="com.example.android.miwok.NumbersActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the Numbers Activity"/>
+
 </android.support.constraint.ConstraintLayout>
