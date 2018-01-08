@@ -18,19 +18,6 @@ public class Word {
     public Word(String defaultTranslation, String miwokTranslation) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
-//        super(context);
-//        mDefaultTranslation = "";
-//        mMiwokTranslation = "";
-//        mContext = context;
-    }
-
-//    public void setDefaultTranslation(String defaultTranslation) {
-//        mDefaultTranslation = defaultTranslation;
-//    }
-//
-//    public void setmMiwokTranslation(String miwokTranslation) {
-//        mMiwokTranslation = miwokTranslation;
-//    }
 
     public String getDefaultTranslation() {
         return mDefaultTranslation;
