@@ -2,6 +2,7 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -30,5 +31,12 @@ public class FamilyActivity extends AppCompatActivity {
         ListView listView = (ListView) findViewById(R.id.list);
 
         listView.setAdapter(wordAdapter);
+
+        ReportCard reportCard = new ReportCard("John Doe", "A", "B-", "B+");
+        Log.v("ReportCard", reportCard.toString());
+
+        ReportCard reportCard2 = new ReportCard("Matilda Mindhunter", "S", "S", "S");
+        Log.v("ReportCard", reportCard2.toString());
+
     }
 }
