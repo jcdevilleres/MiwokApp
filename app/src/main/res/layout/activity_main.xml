@@ -22,11 +22,18 @@
     android:orientation="vertical"
     tools:context="com.example.android.miwok.MainActivity">
 
+    <!--<TextView-->
+        <!--android:id="@+id/numbers"-->
+        <!--style="@style/CategoryStyle"-->
+        <!--android:background="@color/category_numbers"-->
+        <!--android:text="@string/category_numbers"/>-->
+
     <TextView
         android:id="@+id/numbers"
         style="@style/CategoryStyle"
-        android:background="@color/category_numbers"
-        android:text="@string/category_numbers"/>
+        android:background="?android:attr/selectableItemBackground"
+        android:text="@string/category_numbers"
+        android:textColor="@android:color/black"/>
 
     <TextView
         android:id="@+id/family"
