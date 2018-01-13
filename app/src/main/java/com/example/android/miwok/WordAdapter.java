@@ -2,6 +2,7 @@ package com.example.android.miwok;
 
 import android.app.Activity;
 import android.content.Context;
+import android.media.MediaPlayer;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.content.ContextCompat;
@@ -11,6 +12,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
@@ -21,7 +23,7 @@ import java.util.ArrayList;
 
 public class WordAdapter extends ArrayAdapter<Word>  {
     private int mBgcolorResourceId;
-
+    MediaPlayer mediaPlayer;
     /**
      * Create a new {@link WordAdapter} object.
      *
@@ -43,7 +45,7 @@ public class WordAdapter extends ArrayAdapter<Word>  {
         }
 
         // Get the {@link Word} object located at this position in the list
-        Word currentWord = getItem(position);
+        final Word currentWord = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID miwok_text_view.
         TextView miwokTextView = (TextView) listItemView.findViewById(R.id.text_view_1);

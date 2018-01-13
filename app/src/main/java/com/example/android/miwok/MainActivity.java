@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, NumbersActivity.class);
                 startActivity(i);
-                Toast.makeText(MainActivity.this, "Number List has been opened!", Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, ColorsActivity.class);
                 startActivity(i);
-                Toast.makeText(MainActivity.this, "Color List has been opened!", Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(i);
-                Toast.makeText(MainActivity.this, "Family List has been opened!", Toast.LENGTH_SHORT).show();
+
             }
         });
 
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(i);
-                Toast.makeText(MainActivity.this, "Phrases List has been opened!", Toast.LENGTH_SHORT).show();
+
             }
         });
     }
