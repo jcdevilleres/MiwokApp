@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.miwok.models;
 
 import android.content.Context;
 import android.view.View;

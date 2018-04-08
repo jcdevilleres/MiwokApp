@@ -1,4 +1,4 @@
-package com.example.android.miwok;
+package com.example.android.miwok.utils;
 
 import android.content.Context;
 import android.media.MediaPlayer;
@@ -9,6 +9,9 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android.miwok.R;
+import com.example.android.miwok.models.Word;
 
 import java.util.ArrayList;
 

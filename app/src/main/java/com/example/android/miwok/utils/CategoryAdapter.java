@@ -1,9 +1,14 @@
-package com.example.android.miwok;
+package com.example.android.miwok.utils;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.example.android.miwok.fragments.ColorsFragment;
+import com.example.android.miwok.fragments.FamilyFragment;
+import com.example.android.miwok.fragments.NumbersFragment;
+import com.example.android.miwok.fragments.PhrasesFragment;
 
 /**
  * Created by Jean Claude on 1/15/2018.
